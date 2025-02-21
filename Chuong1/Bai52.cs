@@ -4,7 +4,11 @@ class Bai52
 {
     static void Main()
     {
-        
+        Console.Write("Nhập số nguyên dương n_331: ");
+        int n_331 = int.Parse(Console.ReadLine());
+
+        int minDigit_331 = FindMinDigit(n_331);
+        Console.WriteLine($"Chữ số nhỏ nhất của {n_331} là: {minDigit_331}");
     }
 
     static int FindMinDigit(int n_331)
