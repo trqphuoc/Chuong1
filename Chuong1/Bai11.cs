@@ -25,6 +25,6 @@ class Bai11
             // Cộng dồn vào tổng
             sum_331 += product_331;
         }
-
+        Console.WriteLine($"Tổng S({n_331}) = {sum_331}");
     }
 }
